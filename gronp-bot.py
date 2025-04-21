@@ -144,8 +144,8 @@ class MyClient(botpy.Client):
                 msg_id=message.id
             )
 if __name__ == "__main__":
-    app_id = "102756167"
-    app_secret = "V1X3Z5b7dAhElIpMuS0Y6eCkJsR0Z8hH"
+    app_id = ""
+    app_secret = ""
 
     intents = botpy.Intents(public_guild_messages=True,public_messages=True)
     client = MyClient(intents=intents)
